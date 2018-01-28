@@ -8,4 +8,7 @@ class Awesome
   def frown
     return ':('
   end
+  def wink
+    return ";)"
+  end
 end
