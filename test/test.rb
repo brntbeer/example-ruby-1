@@ -5,4 +5,14 @@ class TestAwesome < Test::Unit::TestCase
     me = Awesome.new()
     assert_equal me.smile, ':)'
   end
+
+  def test_frown
+    me = Awesome.new
+    assert_equal me.frown, ':('
+  end
+
+  def test_wink
+    me = Awesome.new
+    assert_equal me.wink, ';)'
+  end
 end
